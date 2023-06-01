@@ -1,0 +1,56 @@
+#title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+
+#right-align {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-horizontal {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.input-field {
+    width: 20%;
+}
+label {
+    font-family: sans-serif;
+}
+
+#equation-box {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 5px solid black;
+    margin-top: 20px;
+}
+
+#calculator {
+    width: 1920px;
+    height: 1080px;
+}
+
+#equation-desmos {
+    font-size: 16px;
+}
+
+#update-btn {
+    margin: 10px;
+}
